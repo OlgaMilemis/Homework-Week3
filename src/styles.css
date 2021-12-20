@@ -46,6 +46,9 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.contact-link:hover {
+  color: white;
+}
 
 .about-link {
   color: var(--primary-color);
@@ -61,22 +64,8 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 48px;
-  }
-  h2 {
-    font-size: 24px;
-  }
-  h3 {
-    font-size: 12px;
-  }
-  .project {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
+.primary-link:hover {
+  color: white;
 }
 .homepage-link {
   color: var(--primary-color);
@@ -103,4 +92,25 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  p {
+    text-align: center;
+  }
+  .project {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
