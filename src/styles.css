@@ -68,6 +68,14 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  .project {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
